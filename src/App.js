@@ -1,4 +1,13 @@
 import logo from './logo.svg';
+import Akash from './Akash1.jpeg';
+import angular from './angular.png';
+import cv from './Akash_CV.pdf';
+import node from './node.png';
+import mysql from './mysql.png';
+import postgresql from './postgresql.png';
+import ionic
+ from './ionic.png';
+import laravel from './laravel.png';
 
 import './App.css';
 import React, { useState } from 'react';
@@ -26,6 +35,7 @@ function App() {
     setAboutSelected(false);
     setStacksSelected(true);
     setContactSelected(false);
+    setStack1(true);
   };
 
   const handleContactClick = () => {
@@ -35,7 +45,7 @@ function App() {
   };
   const handleDownloadCvClick = () => {
     
- const fileUrl = '/Akash_CV.pdf';
+ const fileUrl = cv;
 
  const downloadLink = document.createElement('a');
 
@@ -130,7 +140,7 @@ function App() {
         </button>   </header>
       {!aboutSelected && !stacksSelected && !contactSelected && <>  
         <header className="App-header1">    
-        <img src="/Akash1.jpeg" className="App-logo" alt="logo" />
+        <img src={Akash} className="App-logo" alt="logo" />
         <div className="quote">❝100% professional sirae❞</div>
         </header>
       </>}
@@ -189,12 +199,12 @@ function App() {
          React   <img src={logo}  className="icon-logo"></img>
       </div>
       <div className="about-card lexend_family delay0_5">
-        + Angular   <img src="/angular.png"  className="icon-logo"></img>
+        + Angular   <img src={angular} className="icon-logo"></img>
       </div>
       <div className="about-card lexend_family delay0_5">
-       + Laravel   <img src="laravel.png"  className="icon-logo"></img>
+       + Laravel   <img src={laravel}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay0_5">
-        + PostgreSQL   <img src="postgresql.png"  className="icon-logo"></img>
+        + PostgreSQL   <img src={postgresql}  className="icon-logo"></img>
       </div>
      
     
@@ -213,9 +223,9 @@ thanks to its integrated capabilities for sales, marketing automation, after-sal
       </div>
      
       <div className="about-card lexend_family delay0_5">
-       + Node Js/Ts   <img src="node.png"  className="icon-logo"></img>
+       + Node Js/Ts   <img src={node}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay0_5">
-        + MySQL   <img src="mysql.png"  className="icon-logo"></img>
+        + MySQL   <img src={mysql}  className="icon-logo"></img>
       </div>
      
     
@@ -233,9 +243,9 @@ and minor problems, and handle recall campaigns in an efficient manner
      
      
       <div className="about-card lexend_family delay11">
-       + Laravel  <img src="laravel.png"  className="icon-logo"></img>
+       + Laravel  <img src={laravel}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src="mysql.png"  className="icon-logo"></img>
+        + MySQL   <img src={mysql}  className="icon-logo"></img>
       </div>
      
     
@@ -246,14 +256,14 @@ and minor problems, and handle recall campaigns in an efficient manner
  conscious consumers seeking stylish, responsibly sourced apparel      </div></>}
 <div className=" flex mb stack pointer" onClick={handleStack4}>
       <div className="about-card lexend_family delay0_9" >
-         Ioincs   <img src="ionic.png"  className="icon-logo"></img>
+         Ioincs   <img src={ionic}  className="icon-logo"></img>
       </div>
      
      
       <div className="about-card lexend_family delay11">
-       + Laravel  <img src="laravel.png"  className="icon-logo"></img>
+       + Laravel  <img src={laravel}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src="mysql.png"  className="icon-logo"></img>
+        + MySQL   <img src={mysql}  className="icon-logo"></img>
       </div>
      
     
@@ -272,9 +282,9 @@ thanks to its integrated capabilities for sales, marketing automation, after-sal
      
      
       <div className="about-card lexend_family delay11">
-       + Laravel  <img src="laravel.png"  className="icon-logo"></img>
+       + Laravel  <img src={laravel}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src="mysql.png"  className="icon-logo"></img>
+        + MySQL   <img src={mysql}  className="icon-logo"></img>
       </div>
      
     
@@ -292,9 +302,9 @@ thanks to its integrated capabilities for sales, marketing automation, after-sal
      
      
       <div className="about-card lexend_family delay11">
-       + Laravel  <img src="laravel.png"  className="icon-logo"></img>
+       + Laravel  <img src={laravel}  className="icon-logo"></img>
       </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src="mysql.png"  className="icon-logo"></img>
+        + MySQL   <img src={mysql}  className="icon-logo"></img>
       </div>
      
     

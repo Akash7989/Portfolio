@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.97c1c968.css",
+    "main.js": "/portfolio/static/js/main.d1a0f87a.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Akash_CV.pdf": "/portfolio/static/media/Akash_CV.c6759bf5d108a9527efa.pdf",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.a7fa39912c91e079e90b.png",
+    "static/media/Akash1.jpeg": "/portfolio/static/media/Akash1.0383f34f75f1deb14d1f.jpeg",
+    "static/media/ionic.png": "/portfolio/static/media/ionic.57f43bc8dc498641ee81.png",
+    "static/media/node.png": "/portfolio/static/media/node.9fea1c7da2bd42ab93bf.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.97c1c968.css.map": "/portfolio/static/css/main.97c1c968.css.map",
+    "main.d1a0f87a.js.map": "/portfolio/static/js/main.d1a0f87a.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97c1c968.css",
+    "static/js/main.d1a0f87a.js"
+  ]
+}

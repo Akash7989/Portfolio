@@ -156,31 +156,47 @@ function App() {
       <div className="timeline">
   <div className="timeline-item left ">
     <div className="timeline-item-content  ileft">
-      <span className="date">Year 1</span>
-      <h4 className="title">Event 1</h4>
-      <p className="description">Description of event 1</p>
+      <span className="date">2022-Present</span>
+      <h4 className="title">Jr Software Engineer</h4>
+      <p className="description" style={{textAlign:"center"}}>QR Solutions pvt ltd</p>
     </div>
   </div>
   <div className="timeline-item right ">
     <div className="timeline-item-content iright ">
-      <span className="date">Year 2</span>
-      <h4 className="title">Event 2</h4>
-      <p className="description">Description of event 2</p>
+      <span className="date">Course</span>
+      <h4 className="title">6 Month-Full Stack Development</h4>
+      <p className="description"style={{textAlign:"center"}}>Java,Angular,React,Hibernate,JDBC,Spring Boot,MySQL</p>
     </div>
     
   </div>
   <div className="timeline-item left ">
     <div className="timeline-item-content ileft">
-      <span className="date">Year 3</span>
-      <h4 className="title">Event 1</h4>
-      <p className="description">Description of event 1</p>
+      <span className="date">Key Skills</span>
+      <h4 className="title">Proficient</h4>
+      <p className="description" style={{whiteSpace:"nowrap"}} >
+
+        Frontend:
+     Angular, React,Js, Html,CSS,Bootstrap,SCSS</p>
+      <p className="description">Backend:
+    Node,Laravel</p>
+    <p className="description">Database:MySQL,PostgreSQL</p>
+    <p className="description">
+        
+        Language:
+      Java</p>
+      <p className="description">
+        
+        Version Control:
+      GitHub,BitBucket</p>
+    <h4 className="title">Intermediate</h4>
+      <p className="description">Spring Boot,Ionics,React Native,JDBC,Hibernate</p>
     </div>
   </div>
   <div className="timeline-item right ">
     <div className="timeline-item-content iright">
-      <span className="date">Year 4</span>
-      <h4 className="title">Event 2</h4>
-      <p className="description">Description of event 2</p>
+      <span className="date">Education</span>
+      <h4 className="title"style={{textAlign:"center"}}>B.E-Mechanical Engineering</h4>
+      <p className="description"style={{textAlign:"center"}}>Nehru Institute of Engineering and Technology-Coimbatore</p>
     </div>
     
   </div> 
@@ -209,14 +225,16 @@ function App() {
      
     
       </div>
-      {stack1 && <> <div className="about-card lexend_family delay0_5 mb ">
-      AppRetail is a complete lead management solution for auto dealerships that
-streamlines operations, cuts down on data collecting time, tracks the sales process, offers customer
-insights, allows for seamless communication, and boosts productivity. A user-friendly interface and
-easy connectivity are provided by appRetail.io. AppRetail is a useful tool for automotive firms
-thanks to its integrated capabilities for sales, marketing automation, after-sales support, and service
+      {stack1 && <> 
+        <div style={{overflow:"scroll",overflowX:"hidden",height:"50vh"}}>
+<div className="about-card lexend_family delay0_5 mb ">
+   <p style={{display:""}}>  <div style={{fontWeight:900,textAlign:"center"}}> AppRetail</div> It is a software solution made for auto dealerships to simplify lead management. It does this by:</p>
 
-    </div></>}
+<p style={{display:""}}><div style={{fontWeight:900}}>Centralizing Leads:</div> All leads from different sources like walk-ins, website inquiries, or phone calls are organized and tracked in one place.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Easy Interface:</div> It offers a user-friendly interface for quick and efficient lead entry, ensuring no inquiries are missed.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Automation: </div>Certain tasks like sending responses, scheduling follow-ups, and assigning leads to sales reps are automated.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Customization:</div> It can be tailored to each dealership's unique needs, with customizable fields and workflows.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Reporting and Analytics:</div> Provides insights into lead generation effectiveness, sales performance, and areas for improvement.</p>   </div></div></>}
       <div className=" flex mb stack pointer" onClick={handleStack2}>
       <div className="about-card lexend_family delay0_5">
          React   <img src={logo}  className="icon-logo"></img>
@@ -231,11 +249,39 @@ thanks to its integrated capabilities for sales, marketing automation, after-sal
     
       </div>
       {stack2 && <> <div className="about-card lexend_family delay0_5 mb">
-      The project's goal is to create a thorough Warranty Management Audit System for KIA cars.
-This system will make it possible to manage warranty claims, track down vehicle parts, find significant
-and minor problems, and handle recall campaigns in an efficient manner    
+<div style={{overflow:"scroll",overflowX:"hidden",height:"50vh"}}>
+      <p style={{display:""}}>  <div style={{fontWeight:900, textAlign:"center"}}> WARRANTY APP</div> This project aims to create an advanced Warranty Management Audit System tailored for KIA vehicles. </p>
 
-  </div></>}
+<p style={{display:""}}><div style={{fontWeight:900}}>Warranty Management:</div>
+It streamlines the process from claim submission to approval and reimbursement, ensuring a smooth experience for customers and service centers.
+ </p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Parts Tracking:</div>
+Tracks vehicle parts to ensure genuine KIA parts are used for repairs, maintaining quality. </p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Recall Management: </div>
+Efficiently manages safety recalls or service campaigns, ensuring timely communication and compliance with regulations.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Customization:</div> 
+It can be tailored to each dealership's unique needs, with customizable fields and workflows.
+</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Reporting and Analytics:</div>
+ Provides insights into lead generation effectiveness, sales performance, and areas for improvement.
+ </p>   
+ 
+ <p style={{display:""}}>  <div style={{fontWeight:900 ,textAlign:"center"}}> OTA Hive Project</div> This project update status and history, transferring this data to an external server, and overseeing the progress and results while isolating OTA and software errors. </p>
+
+<p style={{display:""}}><div style={{fontWeight:900}}>Warranty Management:</div>
+It streamlines the process from claim submission to approval and reimbursement, ensuring a smooth experience for customers and service centers.
+ </p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Parts Tracking:</div>
+Tracks vehicle parts to ensure genuine KIA parts are used for repairs, maintaining quality. </p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Recall Management: </div>
+Efficiently manages safety recalls or service campaigns, ensuring timely communication and compliance with regulations.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Customization:</div> 
+It can be tailored to each dealership's unique needs, with customizable fields and workflows.
+</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Reporting and Analytics:</div>
+ Provides insights into lead generation effectiveness, sales performance, and areas for improvement.
+ </p>  </div> </div></>}
+
       <div className=" flex mb stack pointer" onClick={handleStack3}>
       <div className="about-card lexend_family delay0_9" >
          React   <img src={logo}  className="icon-logo"></img>
@@ -251,9 +297,30 @@ and minor problems, and handle recall campaigns in an efficient manner
     
       </div>
       {stack3 && <> <div className="about-card lexend_family delay0_5 mb">
+      <div style={{overflow:"scroll",overflowX:"hidden",height:"50vh"}}>
+
+      <p style={{display:""}}>  <div style={{fontWeight:900, textAlign:"center"}}> 2kTribes.com</div>  </p>
+
       A platform committed to ethical and sustainable practices, offering T-shirts made
  from eco-friendly materials and produced under fair labor conditions. Targets environmentally
- conscious consumers seeking stylish, responsibly sourced apparel      </div></>}
+ conscious consumers seeking stylish, responsibly sourced apparel
+ 
+ <p style={{display:""}}>  <div style={{fontWeight:900, textAlign:"center"}}> SAGAA</div> Sagaa is a dynamic project simplifying retail management with its focus on billing and forecast management. </p>
+ <p style={{display:""}}>  <div style={{fontWeight:900, }}> Efficient Billing:</div> Sagaa ensures quick transaction processing and seamless invoicing, enhancing the checkout experience for customers.</p>
+
+ <p style={{display:""}}>  <div style={{fontWeight:900,}}> Accurate Forecasting:</div> Leveraging advanced analytics, Sagaa helps retailers predict demand accurately, minimizing stock issues and maximizing profitability.</p>
+
+ <p style={{display:""}}>  <div style={{fontWeight:900, }}> Robust Inventory Control:</div> Sagaa offers comprehensive inventory management, enabling effective tracking, replenishment, and waste reduction.</p>
+
+ <p style={{display:""}}>  <div style={{fontWeight:900, }}> Customer Engagement:</div> With advanced CRM features, Sagaa facilitates personalized marketing campaigns and loyalty programs, driving customer engagement.</p>
+
+ <p style={{display:""}}>  <div style={{fontWeight:900, }}> Insightful Analytics:</div> Sagaa provides valuable insights into sales performance and customer behavior, aiding data-driven decision-making.</p>
+
+ <p style={{display:""}}>  <div style={{fontWeight:900,}}> User-Friendly Interface:</div> Designed for ease of use, Sagaa’s intuitive interface enhances productivity for both staff and management.</p>
+
+Security: Sagaa prioritizes data security, ensuring the protection of sensitive information and compliance with industry regulations.
+ 
+   </div>    </div></>}
 <div className=" flex mb stack pointer" onClick={handleStack4}>
       <div className="about-card lexend_family delay0_9" >
          Ioincs   <img src={ionic}  className="icon-logo"></img>
@@ -268,55 +335,23 @@ and minor problems, and handle recall campaigns in an efficient manner
      
     
       </div>
-      {stack4 && <> <div className="about-card lexend_family delay0_5 mb">
-      AppRetail is a complete lead management solution for auto dealerships that
-streamlines operations, cuts down on data collecting time, tracks the sales process, offers customer
-insights, allows for seamless communication, and boosts productivity. A user-friendly interface and
-easy connectivity are provided by appRetail.io. AppRetail is a useful tool for automotive firms
-thanks to its integrated capabilities for sales, marketing automation, after-sales support, and service
-     </div></>}
-<div className=" flex mb stack pointer" onClick={handleStack5}>
-      <div className="about-card lexend_family delay0_9" >
-         React   <img src={logo}  className="icon-logo"></img>
-      </div>
-     
-     
-      <div className="about-card lexend_family delay11">
-       + Laravel  <img src={laravel}  className="icon-logo"></img>
-      </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src={mysql}  className="icon-logo"></img>
-      </div>
-     
-    
-      </div>
-      {stack5 && <> <div className="about-card lexend_family delay0_5 mb">
-      AppRetail is a complete lead management solution for auto dealerships that
-streamlines operations, cuts down on data collecting time, tracks the sales process, offers customer
-insights, allows for seamless communication, and boosts productivity. A user-friendly interface and
-easy connectivity are provided by appRetail.io. AppRetail is a useful tool for automotive firms
-thanks to its integrated capabilities for sales, marketing automation, after-sales support, and service
-      </div></>} <div className=" flex mb stack pointer" onClick={handleStack6}>
-      <div className="about-card lexend_family delay0_9" >
-         React   <img src={logo}  className="icon-logo"></img>
-      </div>
-     
-     
-      <div className="about-card lexend_family delay11">
-       + Laravel  <img src={laravel}  className="icon-logo"></img>
-      </div><div className="about-card lexend_family delay11">
-        + MySQL   <img src={mysql}  className="icon-logo"></img>
-      </div>
-     
-    
-      </div>
-      {stack6 && <> <div className="about-card lexend_family delay0_5 mb">
-      AppRetail is a complete lead management solution for auto dealerships that
-streamlines operations, cuts down on data collecting time, tracks the sales process, offers customer
-insights, allows for seamless communication, and boosts productivity. A user-friendly interface and
-easy connectivity are provided by appRetail.io. AppRetail is a useful tool for automotive firms
-thanks to its integrated capabilities for sales, marketing automation, after-sales support, and service
-      </div></>}
-      
+      {stack4 && <> 
+        <div style={{overflow:"scroll",overflowX:"hidden",height:"50vh"}}>
+<div className="about-card lexend_family delay0_5 mb">
+      <p style={{display:""}}>  <div style={{fontWeight:900, textAlign:"center"}}> OK Kodai</div>  </p>
+      <p style={{display:""}}><div style={{fontWeight:900}}>User-Centric Interface</div>Ok Kodai prioritizes user experience with an intuitive interface, facilitating easy navigation across travel, e-commerce, and hotel booking services.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Travel Booking:</div> 
+Users can effortlessly browse and book flights, trains, buses, and other transportation options, accessing a wide array of routes and schedules.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>E-commerce Platform:  </div>
+Ok Kodai offers a diverse range of products across categories like electronics, fashion, groceries, and accessories, ensuring a convenient shopping experience.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Hotel Reservations: </div> 
+Users can find and reserve accommodations such as hotels, resorts, and guesthouses, with detailed information and pricing options available.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>User Management:  </div>
+Personalized user profiles empower users to manage bookings, view order history, and receive updates, enhancing engagement and satisfaction.</p>
+<p style={{display:""}}><div style={{fontWeight:900}}>Admin Dashboard:  </div>
+Administrators benefit from a comprehensive dashboard for managing user accounts, bookings, inventory, and transactions, enabling efficient oversight and optimization.</p>
+  </div>  </div></>}
+
       </div>
     
       
@@ -324,7 +359,8 @@ thanks to its integrated capabilities for sales, marketing automation, after-sal
       {contactSelected && <>  <header className="App-header1">
         <div className="text_align_left">
       <p className="about-card lexend_family delay0_5">
-        Email:akashsaaag@gmail.com
+      Email: <a href="mailto:akashsaaag@gmail.com" style={{color:"#551a8b"}}>akashsaaag@gmail.com</a>
+ 
       </p>
       <p className="about-card lexend_family delay0_7">
         Mobile:91 9360753418, 91 8870878967

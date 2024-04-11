@@ -217,7 +217,7 @@ button span:nth-child(4) {
   background-color: #f4f4f4;
   top: 45%;
   text-align: center;
-  left: 94%;
+  left: 96%;
   transform: rotate(45deg);
   z-index: 1;
 
@@ -231,7 +231,7 @@ button span:nth-child(4) {
   background-color: #f4f4f4;
   top: 45%;
   text-align: center;
-  left: -5%;
+  left: -2%;
   transform: rotate(45deg);
   z-index: 1;
 

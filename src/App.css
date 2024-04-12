@@ -7,7 +7,7 @@
 
 .App-logo {
   height: 60vmin;
-  border-radius:50%;
+  border-radius:5%;
   pointer-events: none;
 }
 .icon-logo{
@@ -166,11 +166,23 @@ button span:nth-child(4) {
   font-weight: 600;
   font-style: normal;
 }
+.lexed_family_descr{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:14px;
+  color:#666;
+}
 .about-card{
   font-weight:600;
-  font-size:16px;
+  font-size:14px;
+  color:#666;
   text-align:left;
+  z-index:10;
+  background:white;
 }
+
 .text_align_left{
   text-align: left!important;
 }
@@ -241,7 +253,10 @@ button span:nth-child(4) {
   padding: 10px 0;
   position: relative;
 }
-
+.project-description{
+  font-size: 14px;
+    color: #666;
+}
 .timeline-item-content {
   padding: 20px;
   background-color: #f4f4f4;
@@ -325,6 +340,8 @@ button span:nth-child(4) {
   .App-header1 {
     animation: slideIn 1s forwards;
     opacity: 0;
+    margin-right:2vh;
+    padding-right:5px;
   }
   .timeline-item-content.ileft{
     animation: slideIn 2.5s forwards;
